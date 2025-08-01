@@ -136,7 +136,8 @@ def generate_excel(df):
     return output
 
 
-st.title("\U0001F4C3 Personalized Timetable Generator")
+st.title("\U0001F4C3 Timetable Generator")
+st.markdown("*I'm supposed to be solving the leetcode daily right now*")
 
 section = st.selectbox("Select your section:", ["CSE-A&B", "CYS-A"])
 regno = st.text_input("Enter your Registration Number")
